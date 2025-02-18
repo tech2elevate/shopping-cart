@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SNT Workshop - Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header-content">
+        <img src="assets/logo.png" alt="Target Logo" class="logo" />
+        <h1 class="section-title">Shopping Cart</h1>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2 class="section-title">Your Cart</h2>
+        <div class="cart-container">
+          <p class="empty-cart" id="empty-cart-message">Your cart is empty.</p>
+          <ul class="cart-items" id="cart-items"></ul>
+          <div class="cart-total" id="cart-total"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Recently Viewed Items</h2>
+        <div class="product-grid" id="product-list"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
